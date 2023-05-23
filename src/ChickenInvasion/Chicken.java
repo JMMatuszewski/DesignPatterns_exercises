@@ -1,3 +1,5 @@
+package ChickenInvasion;
+
 public abstract class Chicken {
     private String difficulty;
     private int hp;
