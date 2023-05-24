@@ -1,3 +1,7 @@
+import flyweight.Scout;
+import flyweight.Soldier;
+import flyweight.Tank;
+
 import java.util.ArrayList;
 import java.util.List;
 

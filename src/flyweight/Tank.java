@@ -1,3 +1,5 @@
+package flyweight;
+
 public class Tank{
     private String difficulty;
     private int hp;

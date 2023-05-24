@@ -1,3 +1,5 @@
+package flyweight;
+
 public class Soldier{
     private String difficulty;
     private int hp;
