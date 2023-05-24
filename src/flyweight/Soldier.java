@@ -1,14 +1,15 @@
 package flyweight;
 
 public class Soldier{
-    private String difficulty;
-    private int hp;
-    private int speed;
-    private String projectile;
-    public Soldier(String difficulty, int hp, int speed, String projectile) {
-        this.difficulty = difficulty;
-        this.hp = hp;
-        this.speed = speed;
-        this.projectile = projectile;
+
+    private int x;
+    private int y;
+    private ChickenStats stats;
+
+    public Soldier(int x, int y) {
+        this.stats = ChickenStatsRepository.getSoldierStats();
+        this.x = x;
+        this.y = y;
+
     }
 }
