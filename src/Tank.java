@@ -3,10 +3,14 @@ public class Tank{
     private int hp;
     private int speed;
     private String projectile;
-    public Tank(String difficulty, int hp, int speed, String projectile) {
+    private int x;
+    private int y;
+    public Tank(String difficulty, int hp, int speed, String projectile,int x, int y) {
         this.difficulty = difficulty;
         this.hp = hp;
         this.speed = speed;
         this.projectile = projectile;
+        this.x = x;
+        this.y = y;
     }
 }
