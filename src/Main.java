@@ -7,6 +7,8 @@ public class Main {
 
         Factory factory = new ChickenFactory();
 
-        Chicken scout = factory.
+        Chicken scout = factory.createChicken(ChickenType.SCOUT);
+        Chicken soldier = factory.createChicken(ChickenType.SOLDIER);
+        Chicken tank = factory.createChicken(ChickenType.TANK);
     }
 }
